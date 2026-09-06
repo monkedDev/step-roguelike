@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bma81sgxqqehh"]
+
+[ext_resource type="Texture2D" uid="uid://dpfhcyrjapq05" path="res://sprites/player_spear.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://bqhhu7driaqj7" path="res://scripts/player.gd" id="1_g2els"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1745641805]
+script = ExtResource("1_g2els")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1653640202]
+texture = ExtResource("1_3vyb7")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1277349114]
+zoom = Vector2(3, 4)
